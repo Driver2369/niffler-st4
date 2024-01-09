@@ -16,7 +16,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 
-public class SpendingTest {
+public class SpendingTest extends BaseWebTest {
 
   static {
     Configuration.browserSize = "1980x1024";
